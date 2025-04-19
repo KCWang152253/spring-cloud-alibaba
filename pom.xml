@@ -201,7 +201,8 @@
                         </goals>
                         <configuration>
                             <!-- Checkstyle rules inherited from spring-cloud-build -->
-                            <suppressionsLocation>${maven.multiModuleProjectDirectory}/eclipse/checkstyle-suppressions.xml</suppressionsLocation>
+                            <suppressionsLocation>${maven.multiModuleProjectDirectory}/java/spring/spring-cloud-alibaba/eclipse/checkstyle-suppressions.xml</suppressionsLocation>
+<!--                            <suppressionsLocation>/Users/kcwang/java/spring/spring-cloud-alibaba/eclipse/checkstyle-suppressions.xml</suppressionsLocation>-->
                             <includeTestSourceDirectory>true</includeTestSourceDirectory>
                             <consoleOutput>true</consoleOutput>
                             <failsOnError>true</failsOnError>
